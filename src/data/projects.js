@@ -1,43 +1,56 @@
+import PortfolioProject from "../assets/portfolio-project.png";
+import VillaBooking from "../assets/villa-booking.png";
+
 const projects = [
+
   {
     id: 1,
-    title: "Villa Booking Website",
-    description: "Modern villa booking platform",
-    image:
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+
+    title: "Portfolio Website",
+
+    description:
+      "Modern animated developer portfolio built using React, Vite, Framer Motion, and responsive UI principles. Includes project showcase, live routing, downloadable resume, and deployment on Vercel.",
+
+    image: PortfolioProject,
+
+    github:
+      "https://github.com/Kanhaiya211/portfolio",
+
+    live:
+      "https://portfolio-lake-mu-zbbauykc77.vercel.app",
+
+    tech: [
+      "React",
+      "Vite",
+      "CSS",
+      "Framer Motion",
+    ],
   },
 
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "Animated developer portfolio",
-    image:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+
+    title: "Villa Booking Website",
+
+    description:
+      "Luxury villa booking platform with responsive UI, modern property cards, filtering features, booking system concepts, and optimized frontend architecture.",
+
+    image: VillaBooking,
+
+    github:
+      "https://github.com/Kanhaiya211/stayaura-app",
+
+    live:
+      "https://stayaura-app.vercel.app",
+
+    tech: [
+      "React",
+      "Java",
+      "Mysql",
+      
+    ],
   },
 
-  {
-    id: 3,
-    title: "LMS System",
-    description: "Learning management platform",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
-  },
-
-  {
-    id: 4,
-    title: "Hotel Management",
-    description: "Hotel dashboard system",
-    image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
-  },
-
-  {
-    id: 5,
-    title: "E-Commerce App",
-    description: "Online shopping application",
-    image:
-      "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
-  },
 ];
 
 export default projects;
